@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MouseTrailCanvas />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MouseTrailCanvas from './components/MouseTrailCanvas.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MouseTrailCanvas
   }
 }
 </script>
